@@ -36,7 +36,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/predict",
+        "https://frontend-black-kappa-47.vercel.app",
         {
           date: formData.date,
           lag_1: Number(formData.lag_1),
