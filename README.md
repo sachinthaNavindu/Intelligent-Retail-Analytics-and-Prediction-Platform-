@@ -308,7 +308,7 @@ python -m uvicorn main:app --reload
 The local API will be available at:
 
 ```text
-https://frontend-black-kappa-47.vercel.app/
+http://127.0.0.1:8000
 ```
 
 ## Frontend
