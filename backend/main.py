@@ -19,7 +19,9 @@ app.add_middleware(
 )
 
 # Load trained model
-MODEL_PATH = "../data/models/sales_prediction_model.pkl"
+# MODEL_PATH = "../data/models/sales_prediction_model.pkl"
+BASE_DIR = Path(__file__).resolve().parent
+MODEL_PATH = BASE_DIR / "sales_prediction_model.pkl"
 
 model = joblib.load(MODEL_PATH)
 
